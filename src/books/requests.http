@@ -1,0 +1,22 @@
+# GET http://localhost:3000/books/
+
+
+POST http://localhost:3000/books/add
+content-type: application/json
+
+{
+  "title":"asd224@asd.com",
+  "author": ["Deca Fujita"],
+  "category":"thriller",
+  "pages":"asdasd",
+  "price":5
+}
+
+# PUT http://localhost:3000/books/1
+# content-type: application/json
+
+# {
+#   "price": 10
+# }
+
+# DELETE http://localhost:3000/books/1
