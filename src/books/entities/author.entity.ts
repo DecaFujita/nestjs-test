@@ -1,4 +1,4 @@
 export class Author {
-    firstName: string;
-    surName: string;
+  firstName: string;
+  surName: string;
 }
